@@ -1,4 +1,4 @@
-#2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,61,67,71,73,77,79,81,83,87,89,91,97
+#2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,51,59,61,67,71,79,83,89,91,97
 
 list1=[2,3]
 print(list1)
@@ -6,7 +6,7 @@ num1=4
 isPrime=True
 for i in range(2,4,1):
     if num1%i==0:
-      isPrime=False
+        isPrime=False
     if isPrime==True:
         list1.append(num1)
     print(list1)
@@ -25,9 +25,9 @@ isPrime=True
 for i in range(2,6,1):
     if num1%i==0:
         isPrime=False
-    if isPrime==True:
-        list1.append(num1)
-        print(list1)
+if isPrime==True:
+    list1.append(num1)
+print(list1)
 
 num1=7
 isPrime=True
