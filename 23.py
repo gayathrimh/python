@@ -1,4 +1,5 @@
 s1="funwith"
+
 for i in range(1,8,1):
     print(s1[0:i])
 
