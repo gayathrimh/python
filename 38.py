@@ -13,10 +13,7 @@ pwd1=pwd1+rd.choice(list1)
 pwd1=pwd1+rd.choice(list2)
 pwd1=pwd1+rd.choice(list3)
 
-pwd1=pwd1+rd.choice(list4)
-pwd1=pwd1+rd.choice(list4)
-pwd1=pwd1+rd.choice(list4)
-pwd1=pwd1+rd.choice(list4)
-pwd1=pwd1+rd.choice(list4)
+for i in range(0,20-3,1):
+    pwd1=pwd1+rd.choice(list4)
 
 print(pwd1)
