@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def calc(n1,n2):
     sum1=n1+n2
     diff1=n1-n2
@@ -14,13 +13,11 @@ def calc(n1,n2):
     list.append(div2)
     list.append(rem1)
     return list
-
     print(sum1,diff1,prd1,div1,div2,rem1)
 calc(10,2)
 calc(2,10)
 calc(8,4)
 
-=======
 def calc(n1,n2):
     sum1=n1+n2
     diff1=n1-n2
@@ -33,4 +30,3 @@ calc(10,2)
 calc(2,10)
 calc(8,4)
 
->>>>>>> 2662dd6074379fe70661297c0b2e2e35399080c9
